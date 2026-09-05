@@ -1,0 +1,7 @@
+[[edge_functions]]
+  path = "/api/save-data"
+  function = "save-data"
+
+[[edge_functions]]
+  path = "/api/load-data"
+  function = "load-data"
