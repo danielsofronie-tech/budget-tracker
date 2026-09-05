@@ -1,5 +1,5 @@
-import { getStore } from "https://esm.sh";
- 
+import { getStore } from "npm:@netlify/blobs";
+
 export default async (req) => {
   if (req.method !== "GET") {
     return new Response("Method not allowed", { status: 405 });
